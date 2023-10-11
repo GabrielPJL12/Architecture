@@ -28,8 +28,7 @@ The retail company want to allow customers to browse products and view their ord
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because
-{justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "Firebase", because it is compatible with React Native, can store date such as the user's order history, and the catalog of products from the retail store. We can also eliminate redundancies by using this for our push notification service.
 
 ### Consequences
 
