@@ -1,7 +1,3 @@
-# Archetecture
-This repository will store my architectural decisions made for my Assignment.
----
-# ADR Template
 ---
 # Configuration for the Jekyll template "Just the Docs"
 parent: Decisions
