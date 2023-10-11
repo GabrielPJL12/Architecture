@@ -1,13 +1,13 @@
 ---
 # Configuration for the Jekyll template "Just the Docs"
 parent: Decisions
-title: Offline Mode
+title: Offline Mode Support
 # status: {accepted}
 # date: {2023-10-10}
 # deciders: {Gabriel Leclerc}
 ---
 
-# Offline mode support with data sync.
+# Offline mode support.
 
 ## Context and Problem Statement
 
