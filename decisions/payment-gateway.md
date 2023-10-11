@@ -15,7 +15,7 @@ You are a team responsible for developing a new mobile app for a retail company.
 
 ## Decision Drivers
 
-- We would like to create a mobile app that allows users to pay and order products.
+- The app needs to integrate with various payment gateways to facilitate secure and convenient transactions for customers. The team should select and integrate a suitable payment gateway or a combination of gateways based on security, ease of use, and compatibility with the app's target platforms.
 
 ## Considered Options
 

@@ -15,7 +15,7 @@ The retail company want to allow customers to browse products and view their ord
 
 ## Decision Drivers
 
-- The retail company wants the app to support offline mode.
+- The retail company wants the app to support offline mode, allowing customers to browse products and view their order history even when they are not connected to the internet. The app should sync data with the server once an internet connection is available.
 
 ## Considered Options
 
