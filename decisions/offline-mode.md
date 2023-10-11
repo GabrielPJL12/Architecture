@@ -7,7 +7,7 @@ title: Offline Mode
 # deciders: {Gabriel Leclerc}
 ---
 
-# {Title of problem or solution}
+# Offline mode support with data sync.
 
 ## Context and Problem Statement
 
