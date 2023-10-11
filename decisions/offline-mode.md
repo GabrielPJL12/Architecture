@@ -22,9 +22,7 @@ The retail company want to allow customers to browse products and view their ord
 - Firebase
 - SQLite
 - Realm
-- AWS AppSync
 - Couchbase Mobile
-- PouchDB
 
 ## Decision Outcome
 
@@ -32,36 +30,39 @@ Chosen option: "Firebase", because it is compatible with React Native, can store
 
 ### Consequences
 
-- Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-- Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-- … <!-- numbers of consequences can vary -->
+- Good, because of push notification service.
+- Good, because of a free basic plan.
+- Good because of concise documentation.
+- Good because of quick and easy integration and setup.
+- Bad, because of limited querying capabilities.
+- Bad, because of limited data migration.
+- Bad, because of being Android centered and has less support for iOS.
 
 ## Pros and Cons of the Options
 
-### {title of option 1}
+### SQLite
 
-{example | description}
+- Good, because lightweight.
+- Good, because no installation needed.
+- Good, because reliable.
+- Good, because portable.
+- Good, because accessible.
+- Bad, because Database size is restricted to 2GB in most cases.
+- Bad, because slow.
+- Bad, because not suitable for large scale apps.
 
-- Good, because {argument a}
-- Good, because {argument b}
-- Neutral, because {argument c}
-- Bad, because {argument d}
-- … <!-- numbers of pros and cons can vary -->
+### Realm
 
-### {title of option 2}
+- Good, because high speed.
+- Good, because of well written documentation.
+- Good, because offline mode if free.
+- Bad, because no support for auto-incrementing ID's and composite keys
 
-{example | description}
+### Couchbase
 
-- Good, because {argument a}
-- Good, because {argument b}
-- Neutral, because {argument c}
-- Bad, because {argument d}
-- …
-
-## More Information
-
-{You might want to provide additional evidence/confidence for the decision outcome here and/or
-document the team agreement on the decision and/or
-define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
-how the decision is validated.
-Links to other decisions and resources might here appear as well.}
+- Good, because high speed.
+- Good, because reliable
+- Good, because it allows you to analyze data.
+- Good, because easy setup
+- Bad, because querying can take a while.
+- Bad, because indexing can take too long.
