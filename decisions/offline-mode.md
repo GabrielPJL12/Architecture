@@ -11,19 +11,20 @@ title: Offline Mode
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story.
-You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+The retail company want to allow customers to browse products and view their order history even when they are not connected to the internet. The app should sync data with the server once an internet connection is available.
 
 ## Decision Drivers
 
-- {The retail company wants the app to support offline mode, allowing customers to browse products and view their order history even when they are not connected to the internet. The app should sync data with the server once an internet connection is available}
+- The retail company wants the app to support offline mode.
 
 ## Considered Options
 
-- {title of option 1}
-- {title of option 2}
-- {title of option 3}
-- … <!-- numbers of options can vary -->
+- Firebase
+- SQLite
+- Realm
+- AWS AppSync
+- Couchbase Mobile
+- PouchDB
 
 ## Decision Outcome
 
