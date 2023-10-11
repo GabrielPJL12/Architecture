@@ -1,4 +1,6 @@
 ---
+# ADR Template
+---
 # Configuration for the Jekyll template "Just the Docs"
 parent: Decisions
 title: ADR Template
